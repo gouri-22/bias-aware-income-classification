@@ -1,0 +1,16 @@
+Baseline Model:
+Accuracy: 0.806
+Classification Report:
+    Precision, Recall, F1-score available in output above
+Group-wise Metrics (using MetricFrame):
+    Female - Accuracy: ~0.88, Selection Rate: ~0.08  
+    Male   - Accuracy: ~0.77, Selection Rate: ~0.16  
+Demographic Parity Difference (Baseline): 0.076
+
+Post-processing (ThresholdOptimizer):
+Accuracy: 0.795  
+Demographic Parity Difference: 0.017
+
+In-processing (ExponentiatedGradient):
+Accuracy: 0.772  
+Demographic Parity Difference: 0.003
